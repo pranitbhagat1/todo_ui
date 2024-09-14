@@ -26,7 +26,7 @@ class _SplashScreenState extends State<SplashScreen> {
       padding: EdgeInsets.all(25),
       child: Column(
         children: [
-
+          Text("TEst")
         ],
       ),
     );
