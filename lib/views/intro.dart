@@ -62,14 +62,14 @@ class SplashScreen extends StatelessWidget {
                 ),
                 Text(
                   "Manage your daily tasks",
-                  style: AppTextStyle.mulishExtraBold(40.0),
+                  style: AppTextStyle.bvpExtraBold(40.0),
                 ),
                 SizedBox(
                   height: height * 0.02,
                 ),
                 Text(
                   "Team and Project management with solution providing App",
-                  style: AppTextStyle.mulishMedium(15),
+                  style: AppTextStyle.bvpMedium(15),
                 ),
                 Expanded(
                   child: GestureDetector(
@@ -95,7 +95,7 @@ class SplashScreen extends StatelessWidget {
                           padding: const EdgeInsets.only(left: 10),
                           child: Text(
                             "Get Started",
-                            style: AppTextStyle.mulishExtraBold(18),
+                            style: AppTextStyle.bvpExtraBold(18),
                           ),
                         ),
                       ],

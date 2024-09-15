@@ -18,9 +18,19 @@ Color activeNavigationIndex = const Color(0xff698ff0);
 
 // styles.dart
 class AppTextStyle {
+  static TextStyle mulishThin(double fontSize) {
+    return TextStyle(
+      fontFamily: 'Be Vietnam Pro',
+      fontSize: fontSize,
+      fontWeight: FontWeight.w100,
+      letterSpacing: 0.0,
+      wordSpacing: 0.0,
+    );
+  }
+
   static TextStyle mulishExtraLight(double fontSize) {
     return TextStyle(
-      fontFamily: 'Mulish',
+      fontFamily: 'Be Vietnam Pro',
       fontSize: fontSize,
       fontWeight: FontWeight.w200,
       letterSpacing: 0.0,
@@ -30,7 +40,7 @@ class AppTextStyle {
 
   static TextStyle mulishLight(double fontSize) {
     return TextStyle(
-      fontFamily: 'Mulish',
+      fontFamily: 'Be Vietnam Pro',
       fontSize: fontSize,
       fontWeight: FontWeight.w300, // Black
       letterSpacing: 0.0,
@@ -40,7 +50,7 @@ class AppTextStyle {
 
   static TextStyle mulishRegular(double fontSize) {
     return TextStyle(
-      fontFamily: 'Mulish',
+      fontFamily: 'Be Vietnam Pro',
       fontSize: fontSize,
       fontWeight: FontWeight.w400, // Bold
       letterSpacing: 0.0,
@@ -50,7 +60,7 @@ class AppTextStyle {
 
   static TextStyle mulishMedium(double fontSize) {
     return TextStyle(
-      fontFamily: 'Mulish',
+      fontFamily: 'Be Vietnam Pro',
       fontSize: fontSize,
       fontWeight: FontWeight.w500, // Extra Bold
       letterSpacing: 0.0,
@@ -60,7 +70,7 @@ class AppTextStyle {
 
   static TextStyle mulishSemiBold(double fontSize) {
     return TextStyle(
-      fontFamily: 'Mulish',
+      fontFamily: 'Be Vietnam Pro',
       fontSize: fontSize,
       fontWeight: FontWeight.w600,
       letterSpacing: 0.0,
@@ -71,7 +81,7 @@ class AppTextStyle {
 
   static TextStyle mulishBold(double fontSize) {
     return TextStyle(
-      fontFamily: 'Mulish',
+      fontFamily: 'Be Vietnam Pro',
       fontSize: fontSize,
       fontWeight: FontWeight.w700,
       letterSpacing: 0.0,
@@ -82,7 +92,7 @@ class AppTextStyle {
 
   static TextStyle mulishExtraBold(double fontSize) {
     return TextStyle(
-      fontFamily: 'Mulish',
+      fontFamily: 'Be Vietnam Pro',
       fontSize: fontSize,
       fontWeight: FontWeight.w800,
       letterSpacing: 0.0,
@@ -92,7 +102,7 @@ class AppTextStyle {
 
   static TextStyle mulishBlack(double fontSize) {
     return TextStyle(
-      fontFamily: 'Mulish',
+      fontFamily: 'Be Vietnam Pro',
       fontSize: fontSize,
       fontWeight: FontWeight.w900,
       letterSpacing: 0.0,

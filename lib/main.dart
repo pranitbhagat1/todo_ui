@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:todo_ui/views/splash.dart';
+import 'package:todo_ui/views/intro.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
